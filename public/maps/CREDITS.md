@@ -6,6 +6,11 @@ Farm background images (`*.jpg`) and the tillable-tile data used to generate
 - https://github.com/hpeinar/stardewplanner
 - Licensed under the Apache License 2.0.
 
+The Meadowlands (`meadowlands.*`) tile data and background come from the same
+author's newer Stardew Planner V3 (https://stardew.info), which is not in the
+open-source master branch. Ginger Island (`ginger.*`) comes from the
+stardewplanner repo above.
+
 Stardew Valley is a game by ConcernedApe. Map art is derived from the game's
 assets and is used here for a fan-made, non-commercial planning tool.
 

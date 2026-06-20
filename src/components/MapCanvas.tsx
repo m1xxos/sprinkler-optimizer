@@ -172,7 +172,9 @@ export function MapCanvas() {
 
   function onMouseDown(e: React.MouseEvent) {
     if (!farm) return;
-    if (e.button === 2) {
+    // Right button or middle (wheel) button pan the map.
+    if (e.button === 2 || e.button === 1) {
+      e.preventDefault(); // suppress middle-click autoscroll
       drag.current = { mode: 'pan', sx: e.clientX, sy: e.clientY };
       return;
     }
