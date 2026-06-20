@@ -121,16 +121,6 @@ export function MapCanvas() {
       ctx.stroke();
     }
 
-    // House rect
-    ctx.strokeStyle = 'rgba(220, 60, 60, 0.9)';
-    ctx.lineWidth = 2 / view.scale;
-    ctx.strokeRect(
-      farm.houseRect.x * ts,
-      farm.houseRect.y * ts,
-      farm.houseRect.w * ts,
-      farm.houseRect.h * ts,
-    );
-
     // Placements
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
