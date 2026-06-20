@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/mapcanvas.tsx","./src/components/sidebar.tsx","./src/data/farms.ts","./src/data/items.ts","./src/i18n/strings.ts","./src/optimizer/coverage.ts","./src/optimizer/optimize.ts","./src/optimizer/worker.ts","./src/state/store.ts","./src/state/useoptimizer.ts"],"version":"5.9.3"}
